@@ -56,3 +56,6 @@ header .container {
 	-webkit-border-radius: 20px / 20px;
 	border-radius: 20px / 20px;
 }
+#numButtons:active {
+	background: #aaaaaa;
+}
