@@ -9,18 +9,21 @@ header {
 body {
 	margin-top: -50px;margin-bottom: 0;
 }
+h1 {
+	font-size: 5em;
+	text-align: center;
+}
+button {
+	shape-outside: circle(50px);
+}
+header .container {
+	background-color: #306fad;
+}
 .container {
 	width: 960px;
 	margin: 0 auto;
 	background-color: #ffffff;
 
-}
-header .container {
-	background-color: #306fad;
-}
-h1 {
-	font-size: 5em;
-	text-align: center;
 }
 .slides {
 	width: 960px;height: 1271px;
@@ -30,10 +33,6 @@ h1 {
 .firstButtons {
 	display: flex;
 	justify-content: space-between;
-}
-.numButtons {
-	width: 50px;height: 25px;
-	background-color: #306fad;
 }
 .buttons {
 	display: flex;
@@ -49,5 +48,11 @@ h1 {
 	justify-content: space-around;
 	flex-wrap: wrap;
 	margin-top: 636px;
-	background-color: #999999;
+}
+#numButtons {
+	width: 50px;height: 50px;
+	background: #dddddd;
+	-moz-border-radius: 20px / 20px;
+	-webkit-border-radius: 20px / 20px;
+	border-radius: 20px / 20px;
 }
