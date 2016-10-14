@@ -27,34 +27,24 @@ h1 {
 	margin: 0 auto;
 	transition: width 1s, height 1s;
 }
-.buttonBack, .buttonForward {
-	font-size: 2em;font-weight: bolder;
-}
 .firstButtons {
 	display: flex;
 	justify-content: space-between;
 }
-.button2 {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	background-color: #999999;
-}
 .numButtons {
 	width: 50px;height: 25px;
-	background-color: #999999;
+	background-color: #306fad;
 }
-/*style2.html*/
-.buttons2 {
+.buttons {
 	display: flex;
 	font-size: 5em;
 	opacity: .5;
 	margin-top: -636px;
 }
-.buttonForward2 {
+.buttonForward {
 	margin-left: 870px;
 }
-.button22{
+.numButton{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;

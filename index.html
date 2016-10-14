@@ -2,7 +2,7 @@
 <html>
 <header>
 	<link href="style.css" rel="stylesheet" type="text/css">
-	<title>Scrapbook</title>
+	<title>Scrapbook 1968-1969</title>
 	<div class='container'>
 		<h1>Scrapbook</h1>
 	</div>
@@ -10,7 +10,6 @@
 <body>
 	<div class='container'>
 		<h1>1968-1969</h1>
-		<a href='index.html'>original style</a>
 		<div class='slideshow'>
 			<img class='slides' src='images/1968-1969/imagesSmall/img00001.jpg'>
 			<img class='slides' src='images/1968-1969/imagesSmall/img00002.jpg'>
@@ -48,11 +47,11 @@
 			<img class='slides' src='images/1968-1969/imagesSmall/img00034.jpg'>
 			<img class='slides' src='images/1968-1969/imagesSmall/img00035.jpg'>
 			<img class='slides' src='images/1968-1969/imagesSmall/img00036.jpg'>
-				<div class='buttons2'>
-					<a class='buttonBack2' onclick='plusDivs (-1)'><</a>
-					<a class='buttonForward2' onclick='plusDivs (+1)'>></a>
+				<div class='buttons'>
+					<a class='buttonBack' onclick='plusDivs (-1)'><</a>
+					<a class='buttonForward' onclick='plusDivs (+1)'>></a>
 				</div>
-					<div class='button22'>
+					<div class='numButton'>
 						<button class='numButtons' onclick="currentDiv (1)">1</button>
 						<button class='numButtons' onclick="currentDiv (2)">2</button>
 						<button class='numButtons' onclick="currentDiv (3)">3</button>
@@ -92,25 +91,7 @@
 					</div>
 		</div>
 	</div>
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("slides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
+<script src='java.js'></script>
 </body>
 <footer>
 
